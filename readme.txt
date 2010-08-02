@@ -16,11 +16,11 @@ This plug-in adds full, efficient support for term meta based on the post meta f
 
 New functions include `add_term_meta`, `delete_term_meta`, `get_term_meta`, `update_term_meta`, `get_term_custom`, `get_term_custom_keys`, `get_term_custom_values`, and more.
 
-The functions work just like their post meta counter parts (add_post_meta, et al) – just substitute the post_id with the term_id. Should work with any taxonomy! Take a look inside `simple-term-meta.php` for more complete function documentation.
+The functions work just like their post meta counter parts (add_post_meta, et al) - just substitute the post_id with the term_id. Should work with any taxonomy! Take a look inside `simple-term-meta.php` for more complete function documentation.
 
 Check out `edit_category_custom_fields`, `(taxonomy-name)_edit_form` and other, similar action hooks built into WordPress to start adding your own custom fields to terms using this plug-in!
 
-Because it’s difficult to test this plug-in with all types of custom taxonomies, I’m considering this a “beta” – in the Google sense – or pre-1.0 release.
+Because it's difficult to test this plug-in with all types of custom taxonomies, I'm considering this a "beta" - in the Google sense - or pre-1.0 release.
 
 == Installation ==
 
